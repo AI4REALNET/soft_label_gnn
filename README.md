@@ -20,7 +20,7 @@ This repository contains the official implementation of the **SoftGNN** agent, a
 - **GNN-Based Architecture**: Use Graph Attention Networks (GAT) to encode power grid topology.
 - **Action Feasibility Enhancements**: Improved substation reconfiguration support and line-disconnection handling.
 - **N-1 Security Evaluation**: Post-hoc contingency-aware action selection for increased robustness.
-- **Benchmarking**: Evaluation against greedy expert, and SOTADRL agents in the L2RPN WCCI 2022 environment.
+- **Benchmarking**: Evaluation against greedy expert, and SOTA DRL agents in the L2RPN WCCI 2022 environment.
 
 ---
 
