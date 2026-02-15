@@ -143,7 +143,12 @@ while not done:
 
 ```
 
-
+### Multiple Seed Evaluation
+To robustly evaluate your agent, make sure to run your agent on 20 seeds or more using:
+```bash
+python get_seed_gnn_array.py
+```
+Please make sure to create a suitable validation environment to evaluate on (see. https://grid2op.readthedocs.io/en/latest/user/environment.html#splitting-into-raining-validation-test-scenarios)
 ## 📚 Models & Architecture
 
 The core model is a Graph Attention Network (GAT) defined in gnn/gnn_models.py. It processes the power grid as a graph where:
