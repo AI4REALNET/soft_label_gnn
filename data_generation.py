@@ -438,7 +438,7 @@ if __name__ == "__main__":
     env.reset()
     env.chronics_handler.get_name()
     obs = env.get_obs()
-    action_set = Path(example_path) / "eval" /  "actions.npy"
+    action_set = Path(example_path) / "data" /  "actions.npy"
 
     general_tutor(env_name_path=env_path,
                   save_path=Path(example_path) / "data" ,
